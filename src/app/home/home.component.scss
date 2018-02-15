@@ -1,0 +1,161 @@
+.chat-ico{
+    width:1.5rem;
+   display:inline-block;
+    height:1.5rem;
+    color:white;
+    text-decoration:none;
+}
+.chat-ico:before{
+    content: '';
+    background:url('/assets/images/chat.png');
+    background-size:cover;
+        position:absolute;
+    width:1.5rem;
+  height:1.5rem;
+}
+a{
+        color: black;
+}
+.row{
+    margin-right: 0px;
+}
+
+.temp {
+  margin-left: 6rem;
+    color: white;
+    float: top;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 4.5em;
+    color: #5b5b5b;
+}
+.sun{
+        margin: 2rem;
+   background:url('/assets/images/VectorSmartObject.png');
+    background-size:cover;
+        position:absolute;
+      width: 2.5rem;
+    height: 2.5rem;
+}
+.clear {
+  clear:both;
+}
+.menu {
+  float: right;
+  font-family: Roboto;
+  font-size:.5em;
+  color:#5b5b5b;
+  margin-top:-.09em;
+  margin-right:-2em;
+  list-style:square;
+}
+.variations {
+  font-family:Roboto;
+  font-wight:300;
+  color:#8c8c8c;
+  list-style:none;
+  margin-left:-2em;
+}
+.forecast {
+  width:100%;
+  margin:0 auto;
+}
+.day {
+  display:block;
+     width: 14%;
+    height: 11em;
+  float:left;
+  margin: 0 .375em .5em;
+  text-align:center;
+  font-family:Roboto;
+      color: white;
+    border-right: .08em solid #d9d9d9;
+  line-height: 2;
+}
+.fri {
+  border-right:none;
+}
+.highTemp {
+  font-weight:bold;
+}
+.lowTemp {
+  color: #8c8c8c;
+}
+.cloudy-1{
+          
+     background: url('/assets/images/Vector Smart Object-2.png');
+    background-size: cover;
+    position: absolute;
+    margin-left: -19px;
+    width: 2.6rem;
+    height: 1.9rem;
+}
+.cloudy-2{
+           
+      background: url('/assets/images/Vector Smart Object-1.png');
+    background-size: cover;
+    position: absolute;
+    margin-left: -32px;
+    width: 2.9rem;
+    height: 2.6rem;
+}
+.cloudy-3{
+        
+       background: url('/assets/images/Vector Smart Object-3.png');
+    background-size: cover;
+    position: absolute;
+    margin-left: -27px;
+    width: 2.72rem;
+    height: 2.6rem;
+}
+.cloudy-4{
+    background: url('/assets/images/Vector Smart Object-4.png');
+    background-size: cover;
+    position: absolute;
+    margin-left: -25px;
+    width: 2.6rem;
+    height: 2.4rem;
+}
+
+.cloudy-5{
+background: url('/assets/images/Vector Smart Object-5.png');
+    background-size: cover;
+    position: absolute;
+    margin-left: -22px;
+    width: 2.6rem;
+    height: 2.9rem;
+}
+.cloudy-6{
+         
+      background: url('/assets/images/Vector Smart Object-6.png');
+    background-size: cover;
+    position: absolute;
+    margin-left: -19px;
+    width: 2.6rem;
+    height: 2.6rem;
+}
+/*Left pointing*/
+.triangle-left {
+    margin-top: 5rem;
+    width: 0;
+height: 0;
+border-style: solid;
+border-width: 22.5px 30px 22.5px 0;
+border-color: transparent #00A99E transparent transparent;
+}
+.card-news{
+        color: white;
+    padding: 13px;
+    font-size: 1.7rem;
+}
+.card-carsole{
+    background-color: #0077A2;
+    padding-left: 0px
+}
+.carsole-heading{
+    font-size: 3rem;
+}
+.carsole-para{
+    font-size: 2rem;
+    font-weight: 300;
+}

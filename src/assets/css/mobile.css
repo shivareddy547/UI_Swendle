@@ -1,0 +1,248 @@
+/*== Media Queries for Responsive Design ==*/
+@media only screen and (max-width: 900px) {
+	.news-listing>li{
+		padding-right: 0px;
+	}
+	.list-percentdefine{
+		width: 100%;
+		position: relative;
+	}
+	.news-listing>li p{
+		padding-top: 0px;
+	}
+	.list-percentdefine ul li:last-child{
+		float: none;
+	}
+	.list-courtesy li:last-child{
+		width: auto;
+		float: none;
+	}
+
+	.slider-text h3{
+		font-size: 38px;
+		margin-bottom: 20px;
+	}
+	.slider-text p{
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 0px;
+	}
+
+	.weather-listion li, .weather-listion li:nth-child(2){
+		min-height: 300px;
+		width: 100%;
+		float: none;
+	}
+}
+
+@media(max-width: 860px){
+	.images-items h5{
+		font-size: 26px;
+	}
+	.images-items h6{
+		font-size: 17px;
+	}
+	.images-items .box-pertext{
+		padding: 10px 0px;
+		font-size: 17px;
+	}
+	.images-items .box-pertext .fa{font-size: 20px;}
+}
+
+@media only screen and (max-width: 780px) {
+	.box-offset-1{
+		margin-left: 0px;
+	}
+	.full-780{
+    float: none;
+    width: 100%;
+    clear: both;
+  }
+	header{
+  	border-bottom: 1px solid #1798a0;
+	}
+	header .box-2, header .box-4{
+		width: 50%;
+	}
+	.mobile-menu{
+		display: inline-block;
+	}
+
+	.search-form-mobileview{
+		display: none;
+	}
+
+	.user-actions{
+		margin-top: 5px;
+	}
+	.user-image span{
+		display: none;
+	}
+	.user-image img{
+		margin-right: 0px;
+	}
+  nav{
+  	width: 220px;
+  	height: 100%;
+		position: fixed;
+		top: 0px;
+		left: -220px;
+		display: block;
+		z-index: 110;
+		overflow: hidden;
+		overflow-y: auto;
+		transition: 400ms;
+	}
+	.header-open{
+		left: 0px;
+	}
+	.header-open:before{
+		content: '';
+		position: fixed;
+		z-index: -111;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.5);
+	}
+	nav ul{
+		margin-top: 14px;
+	  -webkit-justify-content: space-between;
+	  display: block;
+	}
+	nav ul li{
+		display: block;
+		float: none;
+	}
+
+}
+
+@media(max-width: 640px){
+	.slider-text {
+		padding: 20px 15px;
+	}
+	.slider-text h3{
+		margin-top: 0px;
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.slider-text p{
+		font-size: 18px;
+		line-height: 27px;
+		margin-bottom: 0px;
+	}
+
+	.images-withtext{
+		display: block;
+	}
+	.images-items img{
+		width: 100%;
+		display: block;
+	}
+	.slider-text{
+		display: block;
+		width: 100%;
+	}
+
+	.news-listing-source li p{
+		width: calc(100% - 120px);
+	}
+	.list-percent-div{
+		text-align: left;
+		margin-top: 15px;
+		display: block;
+		float: none;
+		margin-bottom: 10px;
+	}
+	.list-percent-div div{
+		margin-left: 0px;
+		margin-right: 15px;
+		margin-bottom: 10px;
+	}
+	.list-courtesy-div li:last-child{
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+  .full-600{
+    float: none;
+    width: 100%;
+    clear: both;
+  }
+  .half-600-50p{
+    width: 50%;
+  }
+  footer ul{
+  	min-height: 220px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .featured-box{
+		box-sizing: border-box;
+		padding: 20px 0px;
+	}
+	.news-listing-source li img{
+		width: 70px;
+		height: 70px;
+	}
+	.news-listing-source li p{
+		font-size: 18px;
+		width: calc(100% - 95px);
+	}
+	.list-percent-div div{
+		font-size: 14px;
+		font-weight: 300;
+	}
+	.list-percent-div div .fa{
+		font-size: 15px;
+	}
+	.list-courtesy-div li{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.weather-table{
+		padding-top: 18%;
+	}
+	.weather-table tr td h4{
+		font-size: 14px;
+	}
+	.weather-table tr td img{
+		width: auto;
+		max-width: 30px;
+	}
+	.weather-table tr td p{
+		font-size: 12px;
+	}
+
+	.user-actions{
+		margin-top: 0px;
+	}
+  .logo-text img{
+		width: auto;
+		max-width: 80px;
+	}
+}
+@media only screen and (max-width: 380px) {
+
+  .recommended-box,.featured-box{
+  	padding: 20px 14px;
+  }
+  .list-courtesy li{
+  	font-size: 10px!important;
+  }
+  .list-courtesy li:last-child{
+		margin-left: 5px!important
+	}
+	footer{
+  padding-bottom: 10px;
+	}
+}
+@media only screen and (max-width: 360px) {
+  .full-360{
+    float: none;
+    width: 100%;
+    clear: both;
+  }
+  
+}

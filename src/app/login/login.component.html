@@ -1,0 +1,18 @@
+
+<div class="signup-box">
+    <a href="/" title="Swendle">
+        <img src="assets/images/logo.png">
+    </a>
+    <form (ngSubmit)="onLogin()" method="POST">
+
+        <input type="email" name="" placeholder="Email" autocomplete="false" [(ngModel)]="user.email" name="email" required>
+        <input type="password" name="" placeholder="Password" autocomplete="false" [(ngModel)]="user.password" name="password" required>
+
+        <button type="submit">Sign Up</button>
+        <p>
+            Don't have an account? <a href="/signup">Signup.</a>
+        </p>
+    </form>
+</div>
+
+

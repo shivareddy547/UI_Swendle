@@ -1,0 +1,113 @@
+
+
+<div class="signup-box">
+    <a href="/" title="Swendle">
+        <img src="assets/images/logo.png">
+    </a>
+    <form novalidate [formGroup]="swendle" (ngSubmit)="onSubmit();swendle.reset()">
+        <input type="text" name="" placeholder="First Name" autocomplete="false">
+        <input type="text" name="" placeholder="Last Name" autocomplete="false">
+        <input type="email" name="" placeholder="Email" autocomplete="false">
+        <input type="password" name="" placeholder="Password" autocomplete="false">
+        <input type="password" name="" placeholder="Confirm Password" autocomplete="false">
+        <input type="text" name="" placeholder="Date of Birth" autocomplete="false">
+        <input type="text" name="" placeholder="Country" autocomplete="false">
+        <button type="submit">Sign Up</button>
+        <p>
+            Already have an account? <a href="/login">Login.</a>
+        </p>
+    </form>
+</div>
+
+
+
+
+<!--<div class="container">-->
+<!--<div class="row">-->
+	<!--<div class="col-md-3">-->
+	<!--</div>-->
+	<!--<div class="col-md-6">-->
+
+		<!--<img src="./assets/images/Swendle.PNG" 	-->
+<!--class="rounded mx-auto d-block">-->
+		    <!--</div>-->
+   <!--<div class="col-md-3">-->
+	<!--</div>-->
+<!--</div>-->
+<!--<form novalidate [formGroup]="swendle" (ngSubmit)="onSubmit();swendle.reset()">-->
+<!--<div class="row">-->
+    <!--<div class="col-md-3"></div>-->
+    <!--<div class="col-md-6">-->
+        <!---->
+    <!--<div class="md-form">-->
+        <!--<div class="form-group" [ngClass]="{-->
+        <!--'has-danger': username.invalid && (username.dirty || username.touched),-->
+        <!--'has-success': username.valid && (username.dirty || username.touched)-->
+   <!--}">-->
+    <!--<input placeholder="Username" type="text" id="username"  class="form-control" -->
+           <!--formControlName="username"-->
+           <!--required>-->
+            <!--<div class="form-control-feedback"-->
+         <!--*ngIf="username.errors && (username.dirty || username.touched)">-->
+      <!--<p *ngIf="username.errors.required">Username is required</p>-->
+    <!--</div>-->
+        <!--</div>-->
+    <!--</div>	-->
+  <!--<div class="md-form">-->
+      <!--<div class="form-group"-->
+       <!--[ngClass]="{-->
+        <!--'has-danger': email.invalid && (email.dirty || email.touched),-->
+        <!--'has-success': email.valid && (email.dirty || email.touched)-->
+   <!--}">-->
+          <!---->
+    <!--<input type="email" id="email"  placeholder="Email" class="form-control" formControlName="email"-->
+           <!--required>-->
+    <!--<label for="email" data-error="wrong" data-success="right"></label>-->
+            <!--<div class="form-control-feedback"-->
+         <!--*ngIf="email.errors && (email.dirty || email.touched)">-->
+      <!--<p *ngIf="email.errors.required">Email is required</p>-->
+      <!--<p *ngIf="email.errors.pattern">The email address must contain at least the @ character</p>-->
+    <!--</div>-->
+      <!--</div>-->
+<!--</div>-->
+
+<!--<div class="md-form">-->
+      <!--<div class="form-group"-->
+       <!--[ngClass]="{-->
+        <!--'has-danger': password1.invalid && (password1.dirty || password1.touched),-->
+        <!--'has-success': password1.valid && (password1.dirty || password1.touched)-->
+   <!--}">-->
+    <!--<input type="password" id="form10" placeholder="Password" class="form-control" formControlName="password1" required>-->
+    <!--<label for="form10" data-error="wrong" data-success="right"></label>-->
+            <!--<div class="form-control-feedback"-->
+         <!--*ngIf="password1.errors && (password1.dirty || password1.touched)">-->
+      <!--<p *ngIf="password1.errors.required">Password is required</p>-->
+      <!--<p *ngIf="password1.errors.minlength">Password must be 8 characters long, we need another {{password1.errors.minlength.requiredLength - password1.errors.minlength.actualLength}} characters </p>-->
+    <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!--<div class="md-form">-->
+<!--<div class="form-group"-->
+       <!--[ngClass]="{-->
+        <!--'has-danger': password2.invalid && (password2.dirty || password2.touched),-->
+        <!--'has-success': password2.valid && (password2.dirty || password2.touched)-->
+   <!--}">-->
+    <!--<input type="password" id="password2" placeholder="Confirm Password" class="form-control" formControlName="password2" required>-->
+    <!--<label for="password2"></label>-->
+           <!--<div class="form-control-feedback"-->
+         <!--*ngIf="password2.errors && (password2.dirty || password2.touched)">-->
+      <!--<p *ngIf="password2.errors.required">Password is required</p>-->
+      <!--<p *ngIf="password2.errors.minlength">Password must be 8 characters long, we need another {{password2.errors.minlength.requiredLength - password2.errors.minlength.actualLength}} characters </p>-->
+    <!--</div>-->
+          <!---->
+    <!--</div>-->
+<!--</div>-->
+<!--<button type="submit" style="width: 100%;background-color: #005950;text-transform: none" class="btn btn-primary">Sign Up</button>-->
+<!--<p style=" text-align: center;     margin-top: 26px;">Already have an account?-->
+	<!--<a routerLink="/login" routerLinkActive="active"> Login</a></p>-->
+  <!--</div>-->
+    <!--<div class="col-md-3"></div>-->
+<!--</div>-->
+    <!--</form>-->
+<!--</div>-->

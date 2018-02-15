@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "latoregular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/lato-regular-webfont.eot?#iefix") format("embedded-opentype"),
+  url("/assets/fonts/lato-regular-webfont.woff2") format("woff2"),
+  url("/assets/fonts/lato-regular-webfont.woff") format("woff"),
+  url("/assets/fonts/lato-regular-webfont.ttf") format("truetype"),
+  url("/assets/fonts/lato-regular-webfont.svg#latoregular") format("svg");
+}
+@font-face {
+  font-family: "latobold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/lato-bold-webfont.eot?#iefix") format("embedded-opentype"),
+  url("/assets/fonts/lato-bold-webfont.woff2") format("woff2"),
+  url("/assets/fonts/lato-bold-webfont.woff") format("woff"),
+  url("/assets/fonts/lato-bold-webfont.ttf") format("truetype"),
+  url("/assets/fonts/lato-bold-webfont.svg#latobold") format("svg");
+}
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('/assets/fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/OpenSans-Bold.woff') format('woff'),
+  url('/assets/fonts/OpenSans-Bold.ttf') format('truetype'),
+  url('/assets/fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

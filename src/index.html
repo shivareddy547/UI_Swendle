@@ -1,14 +1,238 @@
 <!doctype html>
-<html lang="en">
+<html lang="">
 <head>
-  <meta charset="utf-8">
-  <title>Swendle</title>
-  <base href="/">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Swendle</title>
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
 </head>
 <body>
-  <app-root></app-root>
+<div class="alert-section">
+    <div class="section">
+        <div class="inner-section">
+            <div class="box-12">
+                <h4>News Alert <span class="fa fa-times float-right" data-parentclose=".alert-section"></span></h4>
+                <p>
+                    Mohammed Amir rattles India top order with three wickets in a furious spell
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<header>
+    <div class="section">
+        <div class="inner-section">
+            <div class="box-2">
+                <i class="fa fa-bars mobile-menu" aria-hidden="true"></i>
+                <a href="/" class="logo-text" title="Swendle">
+                    <img src="assets/images/logo.png">
+                </a>
+            </div>
+            <div class="box-6 search-form-mobileview">
+                <form class="search-form">
+                    <button type="submit" class="fa fa-search"></button>
+                    <input type="text" name="" placeholder="Search">
+                </form>
+            </div>
+            <div class="box-4 user-actions">
+                <ul class="menu-listing">
+                    <li>
+                        <i class="fa fa-bell"></i>
+                        <ul>
+                            <li><a href="#">Notifications #1</a></li>
+                            <li><a href="#">Notifications #2</a></li>
+                            <li><a href="#">Notifications #3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="user-image">
+                            <img src="assets/images/user.jpg"> <span>John Doe <i class="fa fa-chevron-down"></i></span>
+                        </div>
+                        <ul>
+                            <li><a href="#">Setting</a></li>
+                            <li><a href="#">Edit Profile</a></li>
+                            <li><a href="#">Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav class="mobile-nav">
+    <div class="section">
+        <div class="inner-section">
+            <div class="box-12">
+                <ul>
+
+
+
+
+                    <li [routerLink]="['/home']" [routerLinkActive]="'nav-item active'">
+                    <a class="nav-link" >Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li [routerLink]="['/global']" [routerLinkActive]="'nav-item active'">
+                    <a class="nav-link" >Global <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li [routerLink]="['/sports']" [routerLinkActive]="'nav-item active'">
+                    <a class="nav-link ">Sports</a>
+                    </li>
+                    <li [routerLink]="['/politics']" [routerLinkActive]="'nav-item active'">
+                    <a class="nav-link" href="/politics" >Politics</a>
+                    </li>
+                    <li [routerLink]="['/privacy']" [routerLinkActive]="'nav-item active'">
+                    <a class="nav-link" href="/privacy" >Privacy</a>
+                    </li>
+                    <li [routerLink]="['/travel']" [routerLinkActive]="'nav-item active'">
+                    <a class="nav-link">Travel</a>
+                    </li>
+                    <li [routerLink]="['/weather']" [routerLinkActive]="'nav-item active'">
+                    <a class="nav-link ">Weather</a>
+                    </li>
+                    <li [routerLink]="['/technology']" [routerLinkActive]="'nav-item active'">
+                    <a class="nav-link">Technology</a>
+                    </li>
+
+
+                    <!--<a [attr.href]="'/home' ? '/fgfgfhfgh' : null">-->
+                    <!--<a [routerLink]="/home" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Bob</a>-->
+
+                    <!--<li [routerLink]="['/home']" [routerLinkActive]="'nav-item active'">-->
+                    <!--<a [routerLink]="['/home']" >Home <span class="sr-only">(current)</span></a>-->
+                    <!--</li>-->
+                    <!--<li [routerLink]="['/global']" [routerLinkActive]="'nav-item active'">-->
+                    <!--<a class="nav-link" >Global <span class="sr-only">(current)</span></a>-->
+                    <!--</li>-->
+                    <!--<li [routerLink]="['/sports']" [routerLinkActive]="'nav-item active'">-->
+                    <!--<a class="nav-link ">Sports</a>-->
+                    <!--</li>-->
+                    <!--<li [routerLink]="['/politics']" [routerLinkActive]="'nav-item active'">-->
+                    <!--<a class="nav-link" href="/politics" >Politics</a>-->
+                    <!--</li>-->
+                    <!--<li [routerLink]="['/privacy']" [routerLinkActive]="'nav-item active'">-->
+                    <!--<a class="nav-link" href="/privacy" >Privacy</a>-->
+                    <!--</li>-->
+                    <!--<li [routerLink]="['/travel']" [routerLinkActive]="'nav-item active'">-->
+                    <!--<a class="nav-link">Travel</a>-->
+                    <!--</li>-->
+                    <!--<li [routerLink]="['/weather']" [routerLinkActive]="'nav-item active'">-->
+                    <!--<a class="nav-link ">Weather</a>-->
+                    <!--</li>-->
+                    <!--<li [routerLink]="['/technology']" [routerLinkActive]="'nav-item active'">-->
+                    <!--<a class="nav-link">Technology</a>-->
+                    <!--</li>-->
+
+                    <!--<li><a href="#" title="Global">Global</a></li>-->
+                    <!--<li><a href="#" title="Sports">Sports</a></li>-->
+                    <!--<li><a href="#" class="active" title="Politics">Politics</a></li>-->
+                    <!--<li><a href="#" title="Travel">Travel</a></li>-->
+                    <!--<li>-->
+                        <!--<a routerLink="/home" routerLinkActive="active-link">Home</a>-->
+                    <!--</li>-->
+
+                    <!--<li><a href="/category" title="Global" [routerLinkActive]="['active']">Category</a></li>-->
+                    <!--<li><a href="/news-details" title="Sports" >News Details</a></li>-->
+                    <!--<li class="active"><a href="/news-sources"  title="Politics">News Sources</a></li>-->
+                    <!--<li><a href="/privacy" title="Travel">Privacy</a></li>-->
+                    <!--<li><a href="/signup" title="Travel">Signup</a></li>-->
+                    <!--<li><a href="/login" title="Travel">Login</a></li>-->
+
+
+                    <!--&lt;!&ndash;<li><a href="#" title="Weather">Weather</a></li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li><a href="#" title="Technology">Technology</a></li>&ndash;&gt;-->
+                    <!--<li><a href="#" title="Health">Health</a></li>-->
+                    <!--<li><a href="#" title="Entertainment">Entertainment</a></li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<app-root>Loading...</app-root>
+
+
+<footer>
+    <div class="section">
+        <div class="inner-section">
+            <div class="box-4 footer-logo full-600">
+                <a href="#" title="Swendle"><img src="assets/images/white-logo.png" alt="Logo"></a>
+                <p>Fact Checking the News</p>
+            </div>
+            <div class="box-2 half-600-50p">
+                <h4>Regions</h4>
+                <ul>
+                    <li><a href="#" title="UK">UK</a></li>
+                    <li><a href="#" title="Africa">Africa</a></li>
+                    <li><a href="#" title="Americas">Americas</a></li>
+                    <li><a href="#" title="Asia">Asia</a></li>
+                    <li><a href="#" title="China">China</a></li>
+                    <li><a href="#" title="Europe">Europe</a></li>
+                    <li><a href="#" title="Middle East">Middle East</a></li>
+                    <li><a href="#" title="Opinion">Opinion</a></li>
+                </ul>
+            </div>
+            <div class="box-2 half-600-50p">
+                <h4>Video</h4>
+                <ul>
+                    <li><a href="#" title="Video News">Video News</a></li>
+                    <li><a href="#" title="Feature Shows">Feature Shows</a></li>
+                    <li><a href="#" title="Tv Shows">Tv Shows</a></li>
+                    <li><a href="#" title="TV Schedule">TV Schedule</a></li>
+                </ul>
+            </div>
+            <div class="box-2 half-600-50p">
+                <h4>Tech</h4>
+                <ul>
+                    <li><a href="#" title="Business">Business</a></li>
+                    <li><a href="#" title="Culture">Culture</a></li>
+                    <li><a href="#" title="Gadgets">Gadgets</a></li>
+                    <li><a href="#" title="Future">Future</a></li>
+                    <li><a href="#" title="Startups">Startups</a></li>
+                </ul>
+            </div>
+            <div class="box-2 half-600-50p">
+                <h4>Travel</h4>
+                <ul>
+                    <li><a href="#" title="Wonder">Wonder</a></li>
+                    <li><a href="#" title="Food & Drink">Food &amp; Drink</a></li>
+                    <li><a href="#" title="Play">Play</a></li>
+                    <li><a href="#" title="Stay">Stay</a></li>
+                    <li><a href="#" title="Videos">Videos</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script>
+    $( document ).ready(function() {
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        margin: 0,
+        nav    : true,
+        navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
+    });
+</script>
+<script src="assets/js/common.js"></script>
 </body>
 </html>

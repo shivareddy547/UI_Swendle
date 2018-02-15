@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'assets/css/style.css';
+@import 'assets/css/mobile.css';
+/*@import 'assets/css/owl.carousel.min.css';*/
+/*@import 'assets/css/font-awesome.min.css';*/
+
+
+@import '../node_modules/font-awesome/css/font-awesome.css';
